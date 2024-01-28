@@ -1,7 +1,7 @@
 #!/bin/bash
 #YBATCH -r a100_1
 #SBATCH --nodes 1
-#SBATCH -J eval_en
+#SBATCH -J eval_mbpp
 #SBATCH --time=168:00:00
 #SBATCH --output outputs/%j.out
 #SBATCH --error errors/%j.err
@@ -28,7 +28,7 @@ mkdir -p results/generations/${model_name}_${n_samples}n_samples_${do_sample}do_
 
 accelerate launch  main.py \
     --model $model_name \
-    --tasks humaneval \
+    --tasks mbpp \
     --precision bf16 \
     --temperature $temperature \
     --top_p $top_p \
