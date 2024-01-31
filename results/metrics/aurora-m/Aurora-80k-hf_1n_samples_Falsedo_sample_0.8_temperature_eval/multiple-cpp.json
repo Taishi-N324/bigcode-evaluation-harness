@@ -1,0 +1,10 @@
+{
+  "multiple-cpp": {
+    "pass@1": 0.22981366459627328
+  },
+  "config": {
+    "model": "aurora-m/Aurora-80k-hf",
+    "temperature": 0.8,
+    "n_samples": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "multiple-php": {
+    "pass@1": 0.2670807453416149
+  },
+  "config": {
+    "model": "bigcode/starcoderplus",
+    "temperature": 0.8,
+    "n_samples": 1
+  }
+}

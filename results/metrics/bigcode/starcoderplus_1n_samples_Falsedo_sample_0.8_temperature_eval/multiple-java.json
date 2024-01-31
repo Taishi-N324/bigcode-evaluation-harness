@@ -1,0 +1,10 @@
+{
+  "multiple-java": {
+    "pass@1": 0.24050632911392406
+  },
+  "config": {
+    "model": "bigcode/starcoderplus",
+    "temperature": 0.8,
+    "n_samples": 1
+  }
+}

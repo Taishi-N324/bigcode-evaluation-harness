@@ -1,0 +1,10 @@
+{
+  "multiple-php": {
+    "pass@1": 0.21739130434782608
+  },
+  "config": {
+    "model": "aurora-m/Aurora-103.9k-hf",
+    "temperature": 0.8,
+    "n_samples": 1
+  }
+}

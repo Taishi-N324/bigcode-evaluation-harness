@@ -1,0 +1,10 @@
+{
+  "multiple-cpp": {
+    "pass@1": 0.2732919254658385
+  },
+  "config": {
+    "model": "bigcode/starcoderbase",
+    "temperature": 0.8,
+    "n_samples": 1
+  }
+}

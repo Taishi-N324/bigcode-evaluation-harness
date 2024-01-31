@@ -1,0 +1,10 @@
+{
+  "multiple-java": {
+    "pass@1": 0.25949367088607594
+  },
+  "config": {
+    "model": "aurora-m/Aurora-103.9k-hf",
+    "temperature": 0.8,
+    "n_samples": 1
+  }
+}
