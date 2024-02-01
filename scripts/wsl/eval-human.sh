@@ -13,7 +13,7 @@ mkdir -p /home/taishi/workspace/code/bigcode-evaluation-harness/results/metrics/
 sudo docker run -v \
     /home/taishi/workspace/code/bigcode-evaluation-harness:/bigcode-evaluation-harness:ro \
     -v /home/taishi/workspace/code/bigcode-evaluation-harness/results/metrics:/metrics \
-    -it evaluation-harness-multiple \
+    -it evaluation-harness \
     python3 main.py \
     --model $model_name \
     --tasks $task \
@@ -25,6 +25,6 @@ sudo docker run -v \
     --top_p 0.95 \
     --max_length_generation 512 \
     --n_samples $n_samples \
-    --metric_output_path /metrics/${model_name}_${n_samples}n_samples_${do_sample}do_sample_${temperature}_temperature_eval/${task}.json \
+    --metric_output_path /metrics/${model_name}_${n_samples}n_samples_${do_sample}do_sample_${temperature}_temperature_eval/${task}_wsl.json \
 
 # -it ghcr.io/bigcode-project/evaluation-harness-multiple:latest \
